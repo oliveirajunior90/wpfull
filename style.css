@@ -1,0 +1,388 @@
+/*
+
+Theme Name: Novos Elementos
+
+Theme URI: http://novoselementos.com.br/
+
+Author: Agência Novos Elementos
+
+Author URI: http://novoselementos.com.br/
+
+Description: Projeto criado pela Agência Novos Elementos.
+
+Version: 1.2015
+
+
+
+*/
+/* The bootstrap.css file is auto-enqueued in functions.php */
+/******************
+
+IDENTIDADE VISUAL
+
+****************/
+/*
+
+cor forte: #;
+
+cor fraca: #;
+
+*/
+
+/****************************************************************/
+/*****************RESETS******************************************/
+.single.single-post #secondary .widget_lc_taxonomy,
+.single.single-post #secondary .widget_ultimate_posts,
+.single.single-tratamentos #secondary .widget_recent_entries{
+    display: none;
+}
+#secondary header{
+    padding-top: 0;
+    background-color: transparent;
+}
+/****************************************************************/
+/****************************************************************/
+
+
+
+.logged-in.admin-bar {
+    margin-top: 32px !important;
+}
+* {
+    word-break: break-word;
+}
+body .page {
+    min-height: 600px;
+}
+body {
+    overflow-x: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+a {
+    color: #333;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #333;
+    text-decoration: none !important;
+}
+/**********************/
+/*                    */
+/*      RESETS        */
+/*                    */
+/**********************/
+
+header .navbar .menu-button {
+    width: 100%;
+    margin: 0;
+}
+
+.btn-waze {
+    background: #ccc;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-waze img {
+    margin-right: 11px;
+}
+
+
+.mb20 { margin-bottom: 20px; }
+
+hgroup { padding-left: 15px; border-bottom: 1px solid #ccc; }
+hgroup h1 { font: 500 normal 1.625em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin-top: 0; line-height: 1.15; }
+hgroup h2.lead { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #2a3644; margin: 0; padding-bottom: 10px; }
+
+.search-result .thumbnail { border-radius: 0 !important; }
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li { font: 400 normal .85em "Roboto",Arial,Verdana,sans-serif;  line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-7 { position: relative; }
+.search-result h3 { font: 500 normal 1.375em "Roboto",Arial,Verdana,sans-serif; margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result p { font: normal normal 1.125em "Roboto",Arial,Verdana,sans-serif; }
+.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #414141; }
+.search-result span.plus a i { color: #fff !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+
+#breadcrumbs {font-size: 75%; color: #8e908f;margin:1em 0 2em 0;}
+#breadcrumbs a {display: inline; border: none; padding: 0; text-transform: none;}
+
+
+#logo img {
+    width: initial;
+    max-width: 100%;
+}
+.navbar {
+    min-height: initial !important;
+    margin-bottom: 0;
+}
+#menu .navbar.navbar-default {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+#menu .navbar-default .navbar-nav>.active>a,
+#menu .navbar-default .navbar-nav>.active>a:focus,
+#menu .navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #ccc;
+}
+.img {
+    width: 100%;
+    overflow: hidden;
+}
+.img img {
+    max-width: 100%;
+    height: auto
+}
+.logo-ne img {
+    width: 100%;
+    float: right;
+    max-width: 200px;
+}
+#form-allowed-tags {
+    display: none;
+}
+.dmbs-comments {
+    display: none !important;
+}
+.widget ul {
+    list-style: none;
+    padding-left: 0;
+}
+#searchform #searchsubmit {
+    border: 0;
+    background: #eee;
+    padding: 3px 6px;
+    color: #fff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.navis{
+    float: left;
+    width: 100%;
+    padding: 4px 10px;
+    background: #444;
+}
+.navis .nav-previous{
+    float: right;
+}
+.navis a{
+    color: #fff;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+
+/******************
+
+MENU
+
+****************/
+/* MOBILE */
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255, 255, 255, .02);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/* DESKTOP */
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333;
+}
+html body div.npr {
+    padding-right: 0;
+}
+html body div.npl {
+    padding-left: 0;
+}
+html body div.npt {
+    padding-top: 0;
+}
+html body div.npb {
+    padding-bottom: 0;
+}
+html body div.np {
+    padding: 0;
+}
+.form-contato p {
+    font-weight: bold;
+}
+.form-contato span,
+.form-contato input,
+.form-contato textarea {
+    max-width: 100%;
+    border-radius: 3px;
+}
+.form-contato .wpcf7-submit {
+    background-color: transparent;
+    font-size: 18px;
+}
+.mapa iframe {
+    max-width: 100%;
+}
+.form-contato {
+    padding-top: 40px;
+}
+aside .upw-posts article {
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 1px solid #ddd;
+}
+aside .upw-posts footer {
+    display: none;
+}
+/******************
+
+SECOES
+
+s1: ;
+
+s2: ;
+
+s3: ;
+
+****************/
+
+#s1 {
+    padding: 30px 0;
+}
+#s2 {
+    padding: 30px 0;
+}
+#s3 {
+    padding: 30px 0;
+}
+#ne img {
+    max-width: 240px;
+}
+.post-title a {
+    text-transform: initial;
+}
+.page-tratamentos .post-title {
+    font-size: 22px;
+    min-height: 48px;
+}
+.page-tratamentos .post-text p {
+    min-height: 80px;
+}
+.page-header {
+    text-transform: initial;
+}
+.post .post-title {
+    min-height: 52px;
+}
+.post .post-content {
+    min-height: 100px;
+}
+.post-single .post-img img {
+    width: auto;
+}
+.post-img {
+    margin-bottom: 8px;
+}
+.form-contato span{
+    border:0 !important;
+}
+/******************
+
+FOOTER
+
+****************/
+
+footer {
+    padding: 20px 0;
+}
+/******************
+
+MOBILE
+
+****************/
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #menu-menu-principal {
+        float: none !important;
+        display: inline-block;
+    }
+    #menu {
+        text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    html body div.sm-center {
+        text-align: center;
+    }
+    #logo {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .logged-in.admin-bar {
+        margin-top: 46px !important;
+    }
+    #menu {
+        width: 100%;
+    }
+    html body div.xs-center {
+        text-align: center;
+    }
+    .xs-center {
+        text-align: center;
+    }
+    .logo-ne img {
+        float: none;
+    }
+    .navbar.navbar-default {
+        margin: 0 -15px;
+    }
+    #menu .navbar-toggle {
+        border-radius: 0;
+    }
+    .post-box {
+        margin-bottom: 40px;
+    }
+    #ne {
+        margin-top: 20px;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    body .navbar-default .navbar-collapse {
+        padding: 0;
+    }
+}
